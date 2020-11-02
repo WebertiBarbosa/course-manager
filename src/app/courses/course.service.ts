@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Course } from './course';
 
 @Injectable ({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CourseService {
   retrieveAll(): Course[] {
